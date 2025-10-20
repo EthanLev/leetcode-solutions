@@ -14,7 +14,7 @@ public class RomanToInteger {
 	M             1000 */
 	
 	
-	// Attempt 1	5ms
+	// 5ms
 	public int romanToInt(String s) {
 		Map<Character, Integer> map = new HashMap<>();
 		

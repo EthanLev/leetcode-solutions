@@ -1,7 +1,7 @@
 package com.leetcode.easy;
 
 public class PalindromeNumber {
-	// Attempt 1	
+	// 	
 //	public boolean isPalindrome(int x) {
 //		if (x < 0) return false;
 //		
@@ -11,7 +11,7 @@ public class PalindromeNumber {
 //		return s.equals(reversed);
 //	}
 	
-	// Attempt 2	5ms
+	// 5ms
 	public boolean isPalindrome(int x) {
 		// Negative  or numbers ending in 0 can't be palindromes
 		if (x < 0 || x % 10 == 0 && x != 0) {
